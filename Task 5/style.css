@@ -1,0 +1,25 @@
+
+.slider {
+	width: 300px;
+	height: 15px;
+	background-color: rgb(207, 207, 207);
+	position: relative;
+	cursor: pointer;
+	border-radius: 2px;
+ }
+ .button {
+	width: 20px;
+	height: 35px;
+	background-color: rgb(233, 168, 72);
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+ }
+ .cont{
+	margin: 400px;
+ }
+ .active{
+	background-color: red;
+ }

@@ -1,0 +1,14 @@
+.container{
+	width: 1500px;
+	height: 700px;
+	position: relative;
+} 
+.circle{
+	border-radius: 50%;
+	position: absolute;
+}
+
+.active{
+	border: 5px solid red;
+	z-index: 2;
+}
